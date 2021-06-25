@@ -24,7 +24,7 @@ int main() {
         choice = getchar();
     }
 
-    Hero h = SetupNewHero(atoi(choice));
+    Hero h = SetupNewHero(atoi(&choice));
     PrintHero(h);
 
     return 0;

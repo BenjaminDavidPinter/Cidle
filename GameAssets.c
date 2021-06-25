@@ -1,10 +1,10 @@
 #ifndef GAMEASSETS_H
 #define GAMEASSETS_H
 typedef enum Profession {
-    Warrior = 0,
-    Hunter = 1,
-    Mage = 2,
-    Thief = 3
+    Warrior = 1,
+    Hunter = 2,
+    Mage = 3,
+    Thief = 4
 } Profession;
 
 typedef struct Bar{

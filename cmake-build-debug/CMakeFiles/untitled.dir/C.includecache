@@ -8,19 +8,55 @@
 
 /Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
 
+/Users/benjaminpinter/CLionProjects/Cidle/Hero.c
+GameAssets.c
+/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
+Warrior.h
+/Users/benjaminpinter/CLionProjects/Cidle/Warrior.h
+Mage.h
+/Users/benjaminpinter/CLionProjects/Cidle/Mage.h
+Thief.h
+/Users/benjaminpinter/CLionProjects/Cidle/Thief.h
+Hunter.h
+/Users/benjaminpinter/CLionProjects/Cidle/Hunter.h
+
 /Users/benjaminpinter/CLionProjects/Cidle/Hero.h
+GameAssets.c
+/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
+
+/Users/benjaminpinter/CLionProjects/Cidle/Hunter.c
 GameAssets.c
 /Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
 
 /Users/benjaminpinter/CLionProjects/Cidle/Hunter.h
 
+/Users/benjaminpinter/CLionProjects/Cidle/Mage.c
+GameAssets.c
+/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
+
 /Users/benjaminpinter/CLionProjects/Cidle/Mage.h
+
+/Users/benjaminpinter/CLionProjects/Cidle/OutputFuncs.c
+GameAssets.c
+/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
+stdlib.h
+-
+stdio.h
+-
 
 /Users/benjaminpinter/CLionProjects/Cidle/OutputFuncs.h
 GameAssets.c
 /Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
 
+/Users/benjaminpinter/CLionProjects/Cidle/Thief.c
+GameAssets.c
+/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
+
 /Users/benjaminpinter/CLionProjects/Cidle/Thief.h
+GameAssets.c
+/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
+
+/Users/benjaminpinter/CLionProjects/Cidle/Warrior.c
 GameAssets.c
 /Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c
 
