@@ -130,17 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named Cidle
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled
-.PHONY : untitled
+Cidle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Cidle
+.PHONY : Cidle
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+Cidle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/build
+.PHONY : Cidle/fast
+
+Equipment.o: Equipment.c.o
+
+.PHONY : Equipment.o
+
+# target to build an object file
+Equipment.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Equipment.c.o
+.PHONY : Equipment.c.o
+
+Equipment.i: Equipment.c.i
+
+.PHONY : Equipment.i
+
+# target to preprocess a source file
+Equipment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Equipment.c.i
+.PHONY : Equipment.c.i
+
+Equipment.s: Equipment.c.s
+
+.PHONY : Equipment.s
+
+# target to generate assembly for a file
+Equipment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Equipment.c.s
+.PHONY : Equipment.c.s
 
 GameAssets.o: GameAssets.c.o
 
@@ -148,7 +175,7 @@ GameAssets.o: GameAssets.c.o
 
 # target to build an object file
 GameAssets.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/GameAssets.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/GameAssets.c.o
 .PHONY : GameAssets.c.o
 
 GameAssets.i: GameAssets.c.i
@@ -157,7 +184,7 @@ GameAssets.i: GameAssets.c.i
 
 # target to preprocess a source file
 GameAssets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/GameAssets.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/GameAssets.c.i
 .PHONY : GameAssets.c.i
 
 GameAssets.s: GameAssets.c.s
@@ -166,7 +193,7 @@ GameAssets.s: GameAssets.c.s
 
 # target to generate assembly for a file
 GameAssets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/GameAssets.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/GameAssets.c.s
 .PHONY : GameAssets.c.s
 
 Hero.o: Hero.c.o
@@ -175,7 +202,7 @@ Hero.o: Hero.c.o
 
 # target to build an object file
 Hero.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Hero.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Hero.c.o
 .PHONY : Hero.c.o
 
 Hero.i: Hero.c.i
@@ -184,7 +211,7 @@ Hero.i: Hero.c.i
 
 # target to preprocess a source file
 Hero.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Hero.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Hero.c.i
 .PHONY : Hero.c.i
 
 Hero.s: Hero.c.s
@@ -193,7 +220,7 @@ Hero.s: Hero.c.s
 
 # target to generate assembly for a file
 Hero.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Hero.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Hero.c.s
 .PHONY : Hero.c.s
 
 Hunter.o: Hunter.c.o
@@ -202,7 +229,7 @@ Hunter.o: Hunter.c.o
 
 # target to build an object file
 Hunter.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Hunter.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Hunter.c.o
 .PHONY : Hunter.c.o
 
 Hunter.i: Hunter.c.i
@@ -211,7 +238,7 @@ Hunter.i: Hunter.c.i
 
 # target to preprocess a source file
 Hunter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Hunter.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Hunter.c.i
 .PHONY : Hunter.c.i
 
 Hunter.s: Hunter.c.s
@@ -220,7 +247,7 @@ Hunter.s: Hunter.c.s
 
 # target to generate assembly for a file
 Hunter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Hunter.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Hunter.c.s
 .PHONY : Hunter.c.s
 
 Mage.o: Mage.c.o
@@ -229,7 +256,7 @@ Mage.o: Mage.c.o
 
 # target to build an object file
 Mage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mage.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Mage.c.o
 .PHONY : Mage.c.o
 
 Mage.i: Mage.c.i
@@ -238,7 +265,7 @@ Mage.i: Mage.c.i
 
 # target to preprocess a source file
 Mage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mage.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Mage.c.i
 .PHONY : Mage.c.i
 
 Mage.s: Mage.c.s
@@ -247,7 +274,7 @@ Mage.s: Mage.c.s
 
 # target to generate assembly for a file
 Mage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mage.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Mage.c.s
 .PHONY : Mage.c.s
 
 OutputFuncs.o: OutputFuncs.c.o
@@ -256,7 +283,7 @@ OutputFuncs.o: OutputFuncs.c.o
 
 # target to build an object file
 OutputFuncs.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/OutputFuncs.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/OutputFuncs.c.o
 .PHONY : OutputFuncs.c.o
 
 OutputFuncs.i: OutputFuncs.c.i
@@ -265,7 +292,7 @@ OutputFuncs.i: OutputFuncs.c.i
 
 # target to preprocess a source file
 OutputFuncs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/OutputFuncs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/OutputFuncs.c.i
 .PHONY : OutputFuncs.c.i
 
 OutputFuncs.s: OutputFuncs.c.s
@@ -274,7 +301,7 @@ OutputFuncs.s: OutputFuncs.c.s
 
 # target to generate assembly for a file
 OutputFuncs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/OutputFuncs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/OutputFuncs.c.s
 .PHONY : OutputFuncs.c.s
 
 Thief.o: Thief.c.o
@@ -283,7 +310,7 @@ Thief.o: Thief.c.o
 
 # target to build an object file
 Thief.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Thief.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Thief.c.o
 .PHONY : Thief.c.o
 
 Thief.i: Thief.c.i
@@ -292,7 +319,7 @@ Thief.i: Thief.c.i
 
 # target to preprocess a source file
 Thief.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Thief.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Thief.c.i
 .PHONY : Thief.c.i
 
 Thief.s: Thief.c.s
@@ -301,7 +328,7 @@ Thief.s: Thief.c.s
 
 # target to generate assembly for a file
 Thief.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Thief.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Thief.c.s
 .PHONY : Thief.c.s
 
 Warrior.o: Warrior.c.o
@@ -310,7 +337,7 @@ Warrior.o: Warrior.c.o
 
 # target to build an object file
 Warrior.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Warrior.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Warrior.c.o
 .PHONY : Warrior.c.o
 
 Warrior.i: Warrior.c.i
@@ -319,7 +346,7 @@ Warrior.i: Warrior.c.i
 
 # target to preprocess a source file
 Warrior.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Warrior.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Warrior.c.i
 .PHONY : Warrior.c.i
 
 Warrior.s: Warrior.c.s
@@ -328,7 +355,7 @@ Warrior.s: Warrior.c.s
 
 # target to generate assembly for a file
 Warrior.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Warrior.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/Warrior.c.s
 .PHONY : Warrior.c.s
 
 main.o: main.c.o
@@ -337,7 +364,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -346,7 +373,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -355,7 +382,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -366,7 +393,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled"
+	@echo "... Cidle"
+	@echo "... Equipment.o"
+	@echo "... Equipment.i"
+	@echo "... Equipment.s"
 	@echo "... GameAssets.o"
 	@echo "... GameAssets.i"
 	@echo "... GameAssets.s"

@@ -33,4 +33,9 @@ void PrintHero(Hero h){
     printf("\tDex: \t%d\n", h.Dexterity.Total);
     printf("\tInt: \t%d\n", h.Intelligence.Total);
     printf("\tLuk: \t%d\n", h.Luck.Total);
+
+    int equipmentArraySize = sizeof(h.Equips)/sizeof(h.Equips[0]);
+    for (int i = 0; i < equipmentArraySize; ++i) {
+        printf("%s", h.Equips[i].Name);
+    }
 }

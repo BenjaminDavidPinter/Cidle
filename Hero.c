@@ -3,9 +3,12 @@
 #include "Mage.h"
 #include "Thief.h"
 #include "Hunter.h"
+#include <stdlib.h>
+#include <string.h>
 
-Hero SetupNewHero(Profession profession) {
+Hero SetupNewHero(Profession profession, char* name) {
     Hero h;
+    strcpy(h.name, name);
     switch (profession) {
         case Warrior:
             return setupWarrior(h);
@@ -16,5 +19,6 @@ Hero SetupNewHero(Profession profession) {
         case Thief:
             return setupThief(h);
     }
+
     return h;
 }

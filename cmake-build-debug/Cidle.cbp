@@ -78,6 +78,51 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Equipment.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Equipment.h">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/GameAssets.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Hero.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Hero.h">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Hunter.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Hunter.h">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Mage.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Mage.h">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/OutputFuncs.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/OutputFuncs.h">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Thief.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Thief.h">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Warrior.c">
+			<Option target="Cidle"/>
+		</Unit>
+		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/Warrior.h">
+			<Option target="Cidle"/>
+		</Unit>
 		<Unit filename="/Users/benjaminpinter/CLionProjects/Cidle/main.c">
 			<Option target="Cidle"/>
 		</Unit>

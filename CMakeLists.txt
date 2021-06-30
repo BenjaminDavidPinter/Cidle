@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
-project(untitled C)
+project(Cidle C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled main.c GameAssets.c Hero.c Hunter.c Mage.c OutputFuncs.c Thief.c Warrior.c)
+add_executable(Cidle main.c Equipment.c GameAssets.c Hero.c Hunter.c Mage.c OutputFuncs.c Thief.c Warrior.c)

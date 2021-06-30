@@ -7,6 +7,13 @@ typedef enum Profession {
     Thief = 4
 } Profession;
 
+typedef enum StatType {
+    Strength = 1,
+    Dexterity = 2,
+    Intelligence = 3,
+    Luck = 4
+} StatType;
+
 typedef struct Bar{
     int Max;
     int Current;
@@ -15,7 +22,13 @@ typedef struct Bar{
 typedef struct Stat {
     int Total;
     float Multiplier;
+    StatType Type;
 } Stat;
+
+typedef struct Equipment {
+    const char* Name;
+    Stat Stats[4];
+} Equipment;
 
 typedef struct Hero {
     char name[20];
@@ -27,6 +40,7 @@ typedef struct Hero {
     Stat Dexterity;
     Stat Intelligence;
     Stat Luck;
+    Equipment Equips[5];
 } Hero;
 
 #endif

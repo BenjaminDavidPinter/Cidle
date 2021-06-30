@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = /Users/benjaminpinter/CLionProjects/Cidle/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/untitled.dir/all
+all: CMakeFiles/Cidle.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/untitled.dir/clean
+clean: CMakeFiles/Cidle.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
+# Target rules for target CMakeFiles/Cidle.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/benjaminpinter/CLionProjects/Cidle/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
+CMakeFiles/Cidle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/benjaminpinter/CLionProjects/Cidle/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Cidle"
+.PHONY : CMakeFiles/Cidle.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjaminpinter/CLionProjects/Cidle/cmake-build-debug/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/untitled.dir/all
+CMakeFiles/Cidle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjaminpinter/CLionProjects/Cidle/cmake-build-debug/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Cidle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjaminpinter/CLionProjects/Cidle/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled.dir/rule
+.PHONY : CMakeFiles/Cidle.dir/rule
 
 # Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
+Cidle: CMakeFiles/Cidle.dir/rule
 
-.PHONY : untitled
+.PHONY : Cidle
 
 # clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
+CMakeFiles/Cidle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cidle.dir/build.make CMakeFiles/Cidle.dir/clean
+.PHONY : CMakeFiles/Cidle.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
